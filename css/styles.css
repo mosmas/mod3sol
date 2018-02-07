@@ -1,0 +1,95 @@
+
+*{
+	box-sizing:border-box;
+	position: relative;
+}
+
+body{
+	background: black;
+	color:white;
+	}
+h1{
+	text-decoration-style: dotted;
+	opacity: .6;
+	text-transform: uppercase;
+	font-family: 'Vast Shadow', cursive;
+
+}
+.row {
+  margin-bottom: 15px;
+
+}
+.row > div > div{
+	margin-right:5px;
+	margin-bottom: 15px;
+	border: 1px solid gray;
+	background-color: gray;
+}
+#header-nav{
+	background-color: #F9E79F;
+	border-radius: 0;
+}
+/* Style the name of the business*/
+.navbar-brand h1{
+	font-family: 'Philosopher', sans-serif;
+	color: #1C950E;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px, 1px, 1px, #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+text-decoration: none;
+}
+
+#nav-list{
+	margin=top: 10px;
+	text-transform: uppercase;
+
+}
+#nav-list li{
+	border-bottom: 1px solid black;
+}
+#nav-list a{
+	color: #A04000;
+	text-align: center;
+
+}
+
+#nav-list a span {
+	font-size: 1.9em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .iconbar {
+	border: 1px solid #61122f;
+}
+
+/*************MEDIA ***********************/
+/*****************LARGE DEVICES ************/
+@media(min-width: 1200px){
+
+}
+
+/*****************MEDIUM DEVICES ************/
+@media(min-width: 992px) and (max-width: 1199px{
+.col-md-6{
+	margin: 0px;
+}
+}
+
+/*****************SMALL DEVICES ************/
+@media(min-width: 768px)and (max-width: 991px{
+	.col-sm-6{
+		margin: 0px;
+	}
+
+}
+
+/*****************Extra SMALL DEVICES ************/
+@media(max-width: 767px){
+
+}
