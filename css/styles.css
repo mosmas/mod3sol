@@ -68,28 +68,12 @@ text-decoration: none;
 	border: 1px solid #61122f;
 }
 
-/*************MEDIA ***********************/
-/*****************LARGE DEVICES ************/
-@media(min-width: 1200px){
-
+.row a:hover, a:focus{
+text-decoration: none;
+font-size: 1.5em;
+color:yellow;
 }
-
-/*****************MEDIUM DEVICES ************/
-@media(min-width: 992px) and (max-width: 1199px{
-.col-md-6{
-	margin: 0px;
-}
-}
-
-/*****************SMALL DEVICES ************/
-@media(min-width: 768px)and (max-width: 991px{
-	.col-sm-6{
-		margin: 0px;
-	}
-
-}
-
-/*****************Extra SMALL DEVICES ************/
-@media(max-width: 767px){
-
+.row a{
+	color:gold;
+	text-transform: uppercase;
 }
